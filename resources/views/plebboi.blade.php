@@ -13,7 +13,7 @@
 <body>
     <nav>
         <div class="container">
-            <a id="logo">
+            <a id="logo" href="http://127.0.0.1:8000/">
                 <h2>MyPC</h2>
                 <h3>WebStore</h3>
                 <h4>plebboi</h4>
