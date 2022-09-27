@@ -78,6 +78,16 @@
         </div>
     </main>
 >>>>>>> 95b562d6d4337ca7e559093dfe26f21a726c480b
+=======
+    <main>
+        <div class="pc">
+            <section class ="column" style="background-color:blue;"><h2>The GigaChad 20000</h2><p>Data</p></section>
+            <section class ="column" style="background-color:red;"><h2>The PlebBoi</h2><p>Data</p></section>
+        <!--<div class ="column" style="background-color:blue;"><h2>The GigaChad 20000</h2><p>Data</p></div>
+        <div class ="column" style="background-color:red;"><h2>The PlebBoi</h2><p>Data</p></div>-->    
+    </div>
+    </main>
+>>>>>>> parent of 87e8495 (cc)
     </section>
 </body>
 
