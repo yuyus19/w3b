@@ -1,3 +1,6 @@
+main{
+    display:grid;
+}
 .column {
     float: left;
     width: 50%;
