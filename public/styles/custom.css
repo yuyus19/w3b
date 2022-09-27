@@ -1,8 +1,20 @@
 main{
     display:grid;
 }
-.column {
-    float: left;
-    width: 50%;
-    height:500px;
-    }
+nav{
+    background-color:rgb(100, 3, 196);
+    columns:1;
+}
+a:link{
+    color: white;
+}
+a{
+    color: white;
+}
+div.cart{
+    color:white;
+    text-align:right;
+}
+h3{
+    color: white;
+}
