@@ -1,0 +1,40 @@
+image: chilio/laravel-dusk-ci:php-8.1
+
+before_script:
+  - composer install
+  - cp .env.example .env
+  - sed -i 's>APP_URL=.*>APP_URL=http://localhost>' .env
+  - start-nginx-ci-project
+  - php artisan dusk:chrome-driver
+  - configure-laravel
+
+.general:
+  timeout: 5m
+  artifacts:
+    paths:
+      - ./storage/logs # for debugging
+      - ./tests/Browser/screenshots
+      - ./tests/Browser/console
+    expire_in: 7 days
+    when: always
+
+IndexPage:
+  script:
+    - php artisan dusk --filter IndexTest
+  extends: .general
+
+GigaChadPage:
+  script:
+    - php artisan dusk --filter GigaChadTest
+  extends: .general
+
+PlebBoiPage:
+  script:
+    - php artisan dusk --filter PlebBoiTest
+  extends: .general
+
+
+cache:
+  paths:
+    - vendor/
+    - node_modules/
