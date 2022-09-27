@@ -14,7 +14,7 @@
         <div class="container">
             <a id="logo" href="resources\views\index.blade.php">
                 <h2>MyPC</h2>
-                <h3>WebStoret</h3>
+                <h3>WebStore</h3>
 
             </a>
             <div class="cart">
@@ -23,10 +23,12 @@
         </div>
     </nav>
     <section class="container">
-        <!--Your HTML-->
-        <img src="C:\Users\Yusuf\OneDrive\Documents\GitHub\yuyus19\public\img\pc1.png" alt="404 NOT FOUND 404" />
-        <h2>The GigaChad 200</h2>
-        <p>Contains text about the GC200</p>
+    <main>
+        <div class="pc">
+        <div class ="column" style="background-color:blue;"><h2>The GigaChad 20000</h2><p>Data</p></div>
+        <div class ="column" style="background-color:red;"><h2>The PlebBoi</h2><p>Data</p></div>    
+        </div>
+    </main>
     </section>
 </body>
 
