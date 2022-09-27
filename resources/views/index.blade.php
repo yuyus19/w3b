@@ -14,8 +14,7 @@
         <div class="container">
             <a id="logo" href="resources\views\index.blade.php">
                 <h2>MyPC</h2>
-                <h3>WebStore</h3>
-
+                <h3>WebStoret</h3>
 
             </a>
             <div class="cart">
