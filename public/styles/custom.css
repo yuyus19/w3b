@@ -1,8 +1,41 @@
 main{
     display:grid;
 }
+<<<<<<< HEAD
 .column {
     float: left;
     width: 50%;
     height:500px;
     }
+=======
+<<<<<<< HEAD
+
+.column {
+    float: left;
+    width: 50%;
+    height: 500px;
+}
+
+img {
+    height: 200px;
+    width: 150px;
+=======
+nav{
+    background-color:rgb(100, 3, 196);
+    columns:1;
+}
+a:link{
+    color: white;
+}
+a{
+    color: white;
+}
+div.cart{
+    color:white;
+    text-align:right;
+}
+h3{
+    color: white;
+>>>>>>> 95b562d6d4337ca7e559093dfe26f21a726c480b
+}
+>>>>>>> parent of 092ca5b (Revert "Merge branch 'main' of https://github.com/yuyus19/w3b into main")
