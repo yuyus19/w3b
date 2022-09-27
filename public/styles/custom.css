@@ -1,6 +1,7 @@
 main {
     display: grid;
 }
+<<<<<<< HEAD
 
 .column {
     float: left;
@@ -11,4 +12,22 @@ main {
 img {
     height: 200px;
     width: 150px;
+=======
+nav{
+    background-color:rgb(100, 3, 196);
+    columns:1;
+}
+a:link{
+    color: white;
+}
+a{
+    color: white;
+}
+div.cart{
+    color:white;
+    text-align:right;
+}
+h3{
+    color: white;
+>>>>>>> 95b562d6d4337ca7e559093dfe26f21a726c480b
 }
