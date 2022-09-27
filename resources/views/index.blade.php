@@ -25,11 +25,13 @@
     <section class="container">
     <main>
         <div class="pc">
-        <div class ="column" style="background-color:blue;"><h2>The GigaChad 20000</h2><p>Data</p></div>
-        <div class ="column" style="background-color:red;"><h2>The PlebBoi</h2><p>Data</p></div>    
-        </div>
+            <section class ="column" style="background-color:blue;"><h2>The GigaChad 20000</h2><p>Data</p></section>
+            <section class ="column" style="background-color:red;"><h2>The PlebBoi</h2><p>Data</p></section>
+        <!--<div class ="column" style="background-color:blue;"><h2>The GigaChad 20000</h2><p>Data</p></div>
+        <div class ="column" style="background-color:red;"><h2>The PlebBoi</h2><p>Data</p></div>-->    
+    </div>
     </main>
     </section>
-</body>
+</body> 
 
 </html>
